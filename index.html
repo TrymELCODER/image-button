@@ -8,11 +8,13 @@
 </head>
 <body>
     <h5>Oppgave 1</h5>
-<div id="background-container" style="background-image: url('/image/Hogwarts\ day.jpeg');">
-</div>
-<button onclick="changeBackground()">Change Background</button>
-
-
+   
+<div class="image-container">
+    <img src="/image/Hogwarts day.jpeg" alt="Image 1" class="resizable-image" onclick="toggleImageSize(this)">
+    <img src="/image/Hogwarts Night.png" alt="Image 2" class="resizable-image" onclick="toggleImageSize(this)">
+    <img src="/image/hogwarts44.webp" alt="Image 3" class="resizable-image" onclick="toggleImageSize(this)">
+  </div>
+  
 <script src="/imgbutton.js"></script>
 </body>
 </html>
